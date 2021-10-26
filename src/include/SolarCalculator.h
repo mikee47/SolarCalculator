@@ -4,9 +4,7 @@
  * http://github.com/SmingHub/Sming
  * All files of the Sming Core are provided under the LGPL v3 license.
  *
- * SolarCalculator.h - Calculation of apparent time of sunrise and sunset
- *
- * Note: Months are 1-based
+ * SolarCalculator.h
  *
  ****/
 
@@ -22,6 +20,11 @@ struct SolarRef {
 	float longitude;
 };
 
+/**
+ * @brief Calculation of apparent time of sunrise and sunset
+ *
+ * Note: Months are 1-based
+ */
 class SolarCalculator
 {
 public:
